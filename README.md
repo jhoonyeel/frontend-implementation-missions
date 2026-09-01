@@ -96,6 +96,7 @@ AI에게 요청하지 않는 것
 
 각 Mission은 다음과 같은 구조로 관리합니다.
 
+```
 missions/
 ├── 01-state-update/
 │   ├── README.md
@@ -106,6 +107,7 @@ missions/
 │   ├── src/
 │   └── retrospective.md
 └── ...
+```
 
 ### Mission README
 
