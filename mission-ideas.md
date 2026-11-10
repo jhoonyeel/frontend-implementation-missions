@@ -11,3 +11,4 @@
 - [ ] **Async Request Race Condition** — 연속 비동기 요청에서 응답 순서가 뒤바뀌는 상황을 재현하고 제어
 - [ ] **React State Update Queue** — 상태 스냅샷, 함수형 업데이트, Batching 동작을 간단한 상태 관리 구조로 구현
 - [ ] **Simple Query Cache** — 캐시 저장·조회·무효화와 비동기 요청 상태 관리 구현
+- [ ] **MiniPromise** — Promise의 상태 전이, then 콜백 처리, 비동기 실행 순서를 직접 구현하고 네이티브 Promise와 비교
