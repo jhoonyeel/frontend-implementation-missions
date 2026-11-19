@@ -18,3 +18,4 @@
   - 연속 mutate 호출 시 콜백 실행 조건 확인
   - mutate와 mutateAsync의 완료 경계 비교
 - [ ] **Dependency-aware Module Loader** — 모듈 간 의존성을 기반으로 독립 모듈은 병렬로 로드하고, 의존성이 충족된 순서대로 실행되도록 구현
+- [ ] **Date Picker Library and React Wrapper** — 순수 DOM 환경에서 동작하는 imperative date picker를 직접 구현하고, instance 생성·옵션·hook·내부 상태·DOM lifecycle·public API를 설계한 뒤 `useEffect`와 `ref`로 이를 감싸는 React wrapper까지 구현
