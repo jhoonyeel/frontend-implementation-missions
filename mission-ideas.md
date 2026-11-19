@@ -17,3 +17,4 @@
   - 콜백이 반환한 Promise의 대기 여부 검증
   - 연속 mutate 호출 시 콜백 실행 조건 확인
   - mutate와 mutateAsync의 완료 경계 비교
+- [ ] **Dependency-aware Module Loader** — 모듈 간 의존성을 기반으로 독립 모듈은 병렬로 로드하고, 의존성이 충족된 순서대로 실행되도록 구현
