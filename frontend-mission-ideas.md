@@ -15,3 +15,4 @@
 - [ ] **TanStack Query Mutation Lifecycle** — Mutation 실행기 구현, 상태 전이·콜백 실행 순서·Promise 대기·연속 호출·캐시 무효화 실패·`Promise.all` / `Promise.allSettled` 동작 비교
 - [ ] **Dependency-aware Module Loader** — 모듈 의존성 그래프 기반 로더 구현, 독립 모듈 병렬 로드·의존성 충족 후 실행·실행 순서 보장·공통 의존성 중복 로드 방지·순환 의존성 검증
 - [ ] **Date Picker Library and React Wrapper** — 순수 DOM 기반 Imperative Date Picker 및 React Wrapper 구현, Instance 생성·옵션·Hook·내부 상태·DOM Lifecycle·Public API 설계·`useEffect`·`ref` 연동 검증
+- [ ] **Google Maps API와 React Wrapper 비교** — Google Maps JavaScript API를 직접 사용한 지도 구현과 `@vis.gl/react-google-maps` 기반 React 구현을 각각 만들고, 지도 초기화·마커·정보창·이벤트·지도 인스턴스 제어 방식의 차이와 wrapper의 역할을 비교
