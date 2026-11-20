@@ -1,4 +1,4 @@
-# Mission Ideas
+# Frontend Mission Ideas
 
 직접 구현해 보고 싶은 주제와 **핵심 학습·검증 키워드만** 기록하는 아이디어 보관함입니다.
 
