@@ -23,7 +23,6 @@
 - [Frontend Mission Ideas](./frontend-mission-ideas.md): 프론트엔드 구현 미션 아이디어
 - [Computer Systems Mission Ideas](./computer-systems-mission-ideas.md): 컴퓨터 시스템 내부 원리 관련 미션 아이디어
 
-
 아이디어는 확정된 과제가 아니며, 우선순위나 진행 순서를 미리 정하지 않습니다.
 
 ### 2. 미션 구체화
