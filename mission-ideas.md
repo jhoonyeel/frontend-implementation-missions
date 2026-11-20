@@ -12,10 +12,6 @@
 - [ ] **React State Update Queue** — 상태 스냅샷, 함수형 업데이트, Batching 동작을 간단한 상태 관리 구조로 구현
 - [ ] **Simple Query Cache** — 캐시 저장·조회·무효화와 비동기 요청 상태 관리 구현
 - [ ] **MiniPromise** — Promise의 상태 전이, then 콜백 처리, 비동기 실행 순서를 직접 구현하고 네이티브 Promise와 비교
-- [ ] TanStack Query Mutation 콜백 실행 순서 검증
-  - useMutation과 mutate의 onSuccess 비교
-  - 콜백이 반환한 Promise의 대기 여부 검증
-  - 연속 mutate 호출 시 콜백 실행 조건 확인
-  - mutate와 mutateAsync의 완료 경계 비교
+- [ ] **TanStack Query Mutation Lifecycle** — Mutation 실행기 직접 구현, 상태 전이·콜백 실행 순서·Promise 대기·연속 호출 검증, 캐시 무효화 실패 및 `Promise.all` / `Promise.allSettled` 비교
 - [ ] **Dependency-aware Module Loader** — 모듈 간 의존성을 기반으로 독립 모듈은 병렬로 로드하고, 의존성이 충족된 순서대로 실행되도록 구현
 - [ ] **Date Picker Library and React Wrapper** — 순수 DOM 환경에서 동작하는 imperative date picker를 직접 구현하고, instance 생성·옵션·hook·내부 상태·DOM lifecycle·public API를 설계한 뒤 `useEffect`와 `ref`로 이를 감싸는 React wrapper까지 구현
